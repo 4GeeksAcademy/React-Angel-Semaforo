@@ -6,13 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
 // index.css'
-import '../styles/index.css'
+import './components/TrafficLight/TrafficLight.css'
 
 // components
-import Home from './components/Home';
+import Home from './Pages/Home';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<Home />);
+

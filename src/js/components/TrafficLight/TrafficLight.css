@@ -1,0 +1,46 @@
+/* Aquí simplemente e el css para los colores y en */
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(10, 102, 136);
+}
+
+.red {
+    background-color: red;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.green {
+    background-color: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.Semaforo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80px;
+    width: 200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* pedi ayuda al chat para que me quedara más estético el semáforo */
+.active {
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.7);
+}
