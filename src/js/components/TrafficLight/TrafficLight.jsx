@@ -4,10 +4,6 @@ import { useState, useEffect } from "react";
 
 const TrafficLight = () => {
     const [color, setColor] = useState("red");
-    useEffect(() => {
-
-
-    });
     return (
         <div className="Container">
 {/* aqui creo un div container para meter todo el componenete  */}
