@@ -28,6 +28,13 @@
     height: 100px;
 }
 
+.purple {
+    background-color: purple;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
 .Semaforo {
     display: flex;
     flex-direction: column;
